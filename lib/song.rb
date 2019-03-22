@@ -22,20 +22,11 @@ class Song
  Memorable::ClassMethods 
  include
  Memorable::InstanceMethods 
- # def self.reset_all
-  #  self.all.clear
-  #end
-
-  #def self.count
-   # self.all.count
-  #end
 
   def artist=(artist)
     @artist = artist
   end
 
    include Paramable 
- # def to_param
-  #  name.downcase.gsub(' ', '-')
-  #end
+
 end
