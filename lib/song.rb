@@ -27,6 +27,7 @@ class Song
     @artist = artist
   end
 
-   include Paramable 
+  include 
+  Paramable 
 
 end
